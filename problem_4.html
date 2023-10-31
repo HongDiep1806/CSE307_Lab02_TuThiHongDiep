@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <table border="1">
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+
+        <tr>
+            <th>Fullname*</th>
+            <td><input placeholder="Enter your name" type="text" name="" value="" maxlength="300">
+        </tr>
+        <tr>
+            <th>Email*</th>
+            <td><input placeholder="Enter your email" type="text" name="fullname" value="" maxlength="100">
+        </tr>
+        <tr>
+            <th>Pasword*</th>
+            <td> <input placeholder="Enter password" type="password" id="pwd" name="pwd" minlength="8"></td>
+        </tr>
+        <tr>
+            <th>Confirm Password*</th>
+            <td><input placeholder="Enter password again" type="password" id="pwd" name="pwd" minlength="8"></td>
+
+        </tr>
+        <tr>
+            <th>Phone number*</th>
+            <td><input placeholder="Enter your phone number" type="text" name="fullname" value="" maxlength="100">
+
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td><textarea placeholder="Enter your address" name="" cols="40" rows="3"></textarea></td>
+
+        </tr>
+        <tr>
+            <th>City</th>
+            <td><input placeholder="Enter your City" type="text" name="fullname" value="" maxlength="100"> <label
+                    for="sn"><b>State</b></label>
+                <input placeholder="Enter your State" type="text" name="fullname" value="" maxlength="100">
+            </td>
+
+
+        </tr>
+        <tr>
+            <th>Zip\Postal Code</th>
+            <td><input placeholder="Enter the zip code" type="text" name="fullname" value="" maxlength="100">
+
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td><select name="country" id="1234">
+                    <option value="Select your country">[Select your country]</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Italy">Italy</option>
+                </select></td>
+
+
+        </tr>
+        <tr>
+            <th>Birthday :</th>
+            <td>
+                <form action="/action_page.php">
+                    <input type="date" id="birthday" name="birthday">
+                </form>
+            </td>
+
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><select name="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select></td>
+        </tr>
+        <tr>
+            <th>Starting date</th>
+            <td><input type="radio" value="Spring">Spring<input type="radio" value="Spring">Spring</td>
+
+        </tr>
+        <tr>
+            <th>Comments</th>
+            <td><textarea placeholder="Please send us more information" type="text" cols="40" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <center><button>Submit</button></center>
+            </td>
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
